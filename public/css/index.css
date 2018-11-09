@@ -1,0 +1,200 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+.navbar-brand>img {
+                  padding: 7px 14px;
+                }
+
+.navbar-brand {
+    padding: 0px;
+  }
+
+body,html{
+font-family: "Lato";
+width: 100%;
+height: 100%;
+text-align: center;
+}
+.navbar-alignit .navbar-header{
+                    -webkit-transform-style: preserve-3d;
+                    -moz-transform-style: preserve-3d;
+                    transform-style: preserve-3d;
+                    height: 50px;
+                  }
+.navbar-alignit .navbar-brand {
+                      top: 50%;
+                      display: block;
+                      position: relative;
+                      height: auto;
+                      transform: translate(0,-50%);
+                      margin-right: 15px;
+                      margin-left: 15px;
+                  }           
+                  .header-w3l{
+                    margin: 75px;
+                }
+                .header-w3l h1{
+                  font-size:3em;
+                    color:white;
+                    letter-spacing: 6px;
+                    font-weight: 300;
+                    font-family: 'Open Sans', sans-serif;
+                    text-transform: uppercase;
+                }
+                /*--//header--*/        
+/*background separuh*/
+.bg-image {
+background-image: url('../img/background.jpg');
+min-height: 150%;
+background-position: center;
+background-size: cover;
+opacity: 0.8;
+}
+/*fixed top navbar*/
+.navbar {
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  
+  .main {
+    padding: 16px;
+    margin-top: 100px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+
+select, .text{
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: horizontal;
+}
+
+form { 
+  margin: 0 auto; 
+  width:250px;
+  }
+
+.group {
+position: relative;
+margin: 45px 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+.jumlah {
+          width: 50px;
+          padding: 5px;
+          display: inline-block;
+          border: 1px solid #ccc;
+        }
+
+
+.btn {
+    background: #fff;
+    color: #959595;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+    .btn:hover {
+    color: #8b8b8b;
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+    }
+    .btn.btn-link {
+    background: white;
+    color: #259E97;
+    }
+    .btn.btn-link:hover {
+    background: #0d8aee;
+    color: #deeffd;
+    }
+    .btn.btn-submit {
+    background:white;
+    color: #259E97;
+    }
+    .btn.btn-submit:hover {
+    background: #0d8aee;
+    color: #deeffd;
+    }
+    .btn.btn-cancel {
+    background: #eee;
+    }
+    .btn.btn-cancel:hover {
+    background: #e1e1e1;
+    color: #8b8b8b;
+    }
+    
+    .btn-box {
+    text-align: center;
+    margin: 50px 0;
+    }
+
+    .footer {
+      padding: 2.3em 0;
+      }
+      .footer p {
+      font-size: .9em;
+      color: grey;
+      }
+      .footer p a {
+      color: #293260;
+      }
+      .footer p a:hover {
+      text-decoration: none;
+      }
+      /*Footer*/
+      
+      
+      @media(max-width:480px){
+      .footer p{
+      line-height: 28px;
+      }
+      }
+      @media(max-width:414px){
+      .footer p{
+      line-height: 28px;
+      }
+      .footer {
+      padding: 4.3em 0;
+      }
+      }
+      @media(max-width:384px){
+      .footer p{
+      line-height: 28px;
+      }
+      }
+      @media(max-width:375px){
+      .footer p{
+      line-height: 28px;
+      }
+      .footer {
+      padding: 3em 0 1em;
+      }
+      }
+      @media(max-width:320px){
+      .footer p{
+      line-height: 28px;
+      font-size: 0.9em;
+      }
+      .footer {
+      padding: 0em 0 1.1em;
+      }
+      }        
+      /*--responsive--*/
